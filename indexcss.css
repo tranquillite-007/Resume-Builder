@@ -1,0 +1,251 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    align-items: center;
+    height: 80px;
+    padding: 20px 0px;
+}
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    align-items: center;
+    height: 80px;
+    padding: 20px 0px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.logo label
+{
+    font-size: x-large;
+    margin-left: 0px;
+    color: rgb(53, 49, 49);
+    padding-right: 20px;
+    border-right: 2px solid rgb(61 , 59 , 59);
+}
+
+li
+{
+    display: inline-block;
+    font-size: larger;
+}
+
+li a
+{
+    color: rgb(61, 59, 59);
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(61 , 59 , 59);
+}
+
+.create
+{
+    background-color: #21d69a;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.create a
+{
+    color: #fff;
+    font-size: large;
+}
+
+/* section 1 */
+
+.box
+{
+    height: max-content;
+    padding: 110px 50px;
+    display: flex;
+    background-color: rgb(19, 20, 32);
+    color: #fff;
+}
+
+.img1
+{
+    width: 40%;
+    
+}
+.img1 img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.intro
+{
+    margin: auto;
+    width: 50%;
+}
+h1
+{
+    font-size: 35px;
+    color: #fff;
+}
+p
+{
+    font-size: large;
+    margin:30px 0px;
+    color: #797373;
+}
+
+.step
+{
+    display: flex;
+}
+.step_icon
+{
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: #21d69a;
+    border-radius: 100%;
+    align-items: baseline;
+}
+.step_icon img
+{
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+}
+#review
+{
+    background-color: rgb(19, 20, 32);
+    text-align: center;
+}
+
+.review
+{
+    margin: 20px;
+    height: 370px;
+    width: 370px;
+}
+.user_img
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    border: 3px solid rgb(133, 131, 131);
+
+}
+.user_img img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.social_links
+{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    width: max-content;
+}
+.social_links img
+{
+    margin-left: 10px;
+    color: #797373;
+    height: 19px;
+    width: 19px;
+}
+
+
+/* Mobile view */
+@media screen and (max-width: 480px) {
+    /* Add your mobile-specific CSS here */
+    header {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: auto 10px;
+    }
+    footer {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: auto 10px;
+    }
+   .box {
+        display: flex;
+        flex-direction: column;
+    }
+   .img1 {
+        width: 100%;
+        margin: auto;
+    }
+   .intro {
+        width: 100%;
+        margin: 40px auto;
+        text-align: center;
+    }
+   .create {
+        margin: auto;
+    }
+    .review{
+        margin: auto;
+    }
+}
+
+/* Tablet view */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    /* Add your tablet-specific CSS here */
+    header {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: auto 10px;
+    }
+    footer {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: auto 10px;
+    }
+   .box {
+        display: flex;
+        flex-direction: column;
+    }
+   .img1 {
+        width: 100%;
+        margin: auto;
+    }
+   .intro {
+        width: 100%;
+        margin: 40px auto;
+        text-align: center;
+    }
+    .create{
+        margin: auto;
+    }
+    .review{
+        margin: auto;
+    }
+}
